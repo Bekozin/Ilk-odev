@@ -1,9 +1,15 @@
-SELECT title, description FROM film;
+1-)Select title,description From film ;
 
-SELECT * FROM film WHERE length > 60 length <75;
+2-)Select * from film 
+   Where length > 60 and length < 75 ;
 
-SELECT * FROM film WHERE rental_rate = 0.99 AND (replacement_cost=12.99 OR  replacement_cost=28.99);
+3-)Select * from film 
+   Where rental_rate = 0.99 and replacement_cost = 12.99 or replacement_cost = 28.99 ;
 
-SELECT first_name , last_name FROM customer WHERE first_name='Mary';
+4-)Select first_name,last_name From customer 
+   Where first_name = 'Mary' ;
+   CEVAP = Smith
+   
+5-)Select * From film 
+Where length<51 and(rental_rate<>2.99 and rental_rate<>4.99);
 
-SELECT * FROM film WHERE NOT(length>50 AND(rental_rate=2.99 OR rental_rate=4.99));
