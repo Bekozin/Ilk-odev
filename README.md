@@ -1,0 +1,2 @@
+# Ilk-odev
+SQL
